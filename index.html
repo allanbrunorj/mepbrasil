@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sistema de Emissão e Gestão de Carteira de Estudante</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .header-area {
+      background-color: #fff;
+      padding: 20px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    section.section {
+      padding: 40px 0;
+    }
+    .price {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    footer {
+      background-color: #333;
+      color: #ccc;
+      padding: 20px 0;
+      margin-top: 40px;
+      font-size: 13px;
+      text-align: center;
+    }
+    footer a {
+      color: #aaa;
+    }
+    .under-footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img src="https://www.mepbrasil.org/validacarteira/assets/images/logo.png" width="240" alt="MEP Brasil Logo">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <section class="section" id="product">
+    <div class="container">
+
+      <div class="col-lg-12">
+        <p class="text-center"><h2>Validação da Carteira de Estudante</h2></p><br>
+        <p class="text-justify">
+          <span class="price">Esta é uma plataforma que valida as carteiras de estudantes emitidas pela MEP Brasil. Através dela é possível verificar a autenticidade do documento digital ou físico emitido pela nossa entidade, bem como checar, se a carteirinha em questão ainda está no prazo de validade.</span>
+        </p>
+      </div>
+
+      <div class="col-lg-12">
+        <h4>
+          <div style="background-color: #228B22;">
+            <div style="padding: 30px 30px 30px 30px;">
+              <font color="#FFFAFA">Carteira Válida</font>
+            </div>
+          </div>
+        </h4>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="left-images">
+            <div style="padding: 30px 30px 30px 30px;">
+              <img style="border: 3px solid gray; width:250px;"
+                src="https://mepbrasil.com/portal/arquivos/ft466110720252043071752266587.png"
+                alt="Foto de ALLAN BRUNO DE ANDRADE CORRÊA">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="right-content">
+            <div style="padding: 20px 20px 20px 20px;">
+              <h4>Nome:<br> ALLAN BRUNO DE ANDRADE CORRÊA</h4>
+              <hr>
+              <span class="price">R.G./C.P.F.:<br> 150.509.357-09</span>
+              <span class="price">Instituição de Ensino:<br> UFRJ</span>
+              <span class="price">Curso:<br> FÍSICA MÉDICA</span>
+              <span class="price">Código de Identificação:<br> 1F65-9B90</span>
+              <span class="price">Órgão Emissor:<br> MEP - MOVIMENTO ESTUDANTIL PROGRESSISTA DO BRASIL</span>
+              <span class="price">Expiração:<br> <font color="#228B22">Carteira válida</font></span>
+              <span class="price">
+                <button onclick="window.open('https://mepbrasil.com/portal/impressaocarteirapdf.php?idecarteiraestudante=78800');"
+                  type="button" class="mt-3 ml-1 btn btn-secondary">
+                  exportar carteira versão pdf
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div style="padding: 30px 30px 30px 30px;">
+            <p class="text-center">
+              <font style="font-size:20px"><b>CERTIFICADO DE ATRIBUTO EM FORMATO PEM:</b></font><br>
+              <textarea style="font-family: 'Courier New', monospace;" id="story" readonly name="story" rows="30" cols="64">-----BEGIN ATTRIBUTE CERTIFICATE-----
+MIIEoDCCA4oCAQEwgZmhgZakgZMwgZAxCzAJBgNVBAYTAkJSMRMwEQYDVQQKDAp
+JQ1AtQnJhc2lsMUMwQQYDVQQLDDpNT1ZJTUVOVE8gRVNUVURBTlRJTCBQUk9HUk
+VTU0lTVEEgRE8gQlJBU0lMOjA2MDkwOTI3MDAwMTQ2MScwJQYDVQQDDB5BTExBT
+iBCUlVOTyBERSBBTkRSQURFIENPUlLDikEwggErpIIBJzCCASMxQzBBBgNVBAMM
+Ok1PVklNRU5UTyBFU1RVREFOVElMIFBST0dSRVNTSVNUQSBETyBCUkFTSUw6MDY
+wOTA5MjcwMDAxNDYxFzAVBgNVBAsMDjE2Njk2MDYxMDAwMTc1MRkwFwYDVQQLDB
+BWaWRlb2NvbmZlcmVuY2lhMRYwFAYDVQQLDA1BUiBJTkZPUk1CQU5LMRYwFAYDV
+QQLDA1SRkIgZS1DTlBKIEEzMTYwNAYDVQQLDC1TZWNyZXRhcmlhIGRhIFJlY2Vp
+dGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxEzARBgNVBAoMCklDUC1CcmFzaWw
+xETAPBgNVBAcMCFNBTFZBRE9SMQswCQYDVQQIDAJCQTELMAkGA1UEBhMCQlIwCw
+YJKoZIhvcNAQENAgMBM9AwIhgPMjAyNTA3MTEwMzAwMDBaGA8yMDI2MDQwMTAyN
+Tk1OVowgcAwRgYFYEwBCgExPRM7MTUwOTE5OTkxNTA1MDkzNTcwOTAwMDIwMjUx
+MTA3MTc0MDAwMDAwMDI3NTczNDE1MCAgICAgICAgICAwdgYFYEwBCgIxbRNrVUZ
+SSiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdSQURVQUNBTy
+AgICAgIEZJU0lDQSBNRURJQ0EgICAgICAgICAgICAgICAgIFNBTFZBRE9SICAgI
+CAgICAgICAgQkEwgcAwHwYDVR0jBBgwFoAUwntEK/31AVPEYmltL1UeOe4vZ7Mw
+RwYDVR0fBEAwPjA8ojqGOGh0dHA6Ly9jYXJlLmRvdGlzb2x1Y29lcy5jb20uYnI
+vYXBpL2VudGlkYWRlcy8xMi9jcmxzLzE0MFQGCCsGAQUFBwEBBEgwRjBEBggrBg
+EFBQcwAoY4aHR0cDovL2NhcmUuZG90aXNvbHVjb2VzLmNvbS5ici9hcGkvZW50a
+WRhZGVzLzEyL2FpYXMvMTQwCwYJKoZIhvcNAQENA4IBAQBfauqe2Jq2QPKMqYB+
+FsBrnbjET0JQn6LX47hDuaQA7uP5gXpXyDraJU2cqRY4VJBTF9NCkh9EJwmC3yg
+bCfnwqgbt2NlnH5HsW46gN77x4faciS+ubyRe3ukMeXv7MbjexQGZbj/EyHJuWJ
+si9T6WOcOA+tb2twB1ba54PgyiIkMPNhQy5EwRIWapKwVpF3P3VLsgU5tU+PGQw
+EB1nCg+XNehW1+dEtovWOFez1AdYNJViahoMCJFzTSQjROPlo8y1MAWdFnvpV9f
+JtqdqqF7THM7OUaBjKqStYurkKA6SAq9WuQHdshxjcEqkplS9THQ+cQ+lGAwn7V
+UaPajkctv
+-----END ATTRIBUTE CERTIFICATE-----</textarea>
+            </p>
+          </div>
+          <span class="price"><br></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="under-footer">
+            <p>Copyright © 2022 Mitikas Tecnologia da Informação.<br>
+              Desenvolvido por: 1F65-9B90
+              <a href="https://www.mitikas.com.br" target="_blank">Mitikas Tecnologia da Informação</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
